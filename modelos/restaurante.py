@@ -15,6 +15,7 @@ class Restaurante:
 
     @property
     def ativo(self):
+        print(self)
         return 'verdadeiro' if self.ativo else 'false'
         
 
