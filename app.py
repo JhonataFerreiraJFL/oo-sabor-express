@@ -6,6 +6,8 @@ restaurante_praca = Restaurante('praça','Gourmet')
 bebida_suco = Bebida('Suco de melancia', 5.0, 'grande')
 prato_paozinho = Prato('paozinho', 2.0, 'o melhor pao da cidade')
 
+restaurante_praca.adicionar_bebida_no_cardapio(bebida_suco)
+restaurante_praca.adcionar_prato_no_cardapio(prato_paozinho)
 
 def main():
     print(bebida_suco)
